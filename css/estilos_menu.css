@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+ 	background-size: 100vw 100vh;
+ 	background-attachment: fixed;
+}
+
+.imagen{
+	height: 170px;
+	width: 170px;
+	padding: 20px;
+}
+
+#menu {
+
+}
+
+#menu ul{
+	list-style: none;
+	line-height: 42px;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	margin-bottom: 5px;
+	padding-left:1.5px;
+	text-align: center;
+}
+
+#menu ul li a {
+	color: white;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #34495E;
+}
+
+#menu ul li a:hover{
+	background-color: #64B5F6 ;
+}

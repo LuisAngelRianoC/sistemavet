@@ -1,0 +1,86 @@
+
+body{
+	background-image: url(../img/fondo/fondo1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+
+.login-main{
+
+	font-family: consolas;
+	border-radius: 25px;
+	width: 320px;
+	height: 320px;
+	top: 50%;
+	left: 50%;
+	margin-top: 80px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background: #2471A3;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	box-shadow: 6px 6px 6px black;
+}
+
+
+.login-main .logo{
+
+	height: 100px;
+	width: 100px;
+	margin-bottom: 100px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+
+input {
+	width: 70%;
+	margin-bottom: 35px;
+	padding: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-left: 5%;
+}
+
+
+.text_input{
+	border: none;
+	font-size: 16px;
+	color: gray;
+	font-family: verdana;
+	border-bottom: 1px solid;
+	border-bottom-color: lightgray;
+	background-color:rgba(250,250,250);
+	vertical-align: top;
+	outline: none;
+	height: 40px;
+}
+
+#boton{
+	width: 70%;
+	border-radius: 20px;
+	margin-left:5%;
+	background-color: rgb(26, 188, 156);
+	color: #fff;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	-webkit-transition:all 200ms ease;
+	-o-transition:all 200ms ease;
+	transition:all 200ms ease;
+}
+
+#boton:hover{
+	cursor: pointer;
+	font-size: 15px;
+	background: #004DE0;
+}
+#boton:active{
+	cursor: pointer;
+	font-size: 15px;
+	background: #fff;
+	color:#6266F8;
+
+}
